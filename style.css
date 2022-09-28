@@ -239,3 +239,11 @@
 /* Border Helper Classes End */
 
 /* +++ END EXPERTISE SECTION +++ */
+
+/* Footer START */
+footer {
+  background-image: url(./images/bgk-footer.png);
+  background-size: cover;
+  height: 396px;
+}
+/* Footer End */
