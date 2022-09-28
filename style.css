@@ -1,0 +1,71 @@
+#story {
+    display: flex;
+    /* width: 100%; */
+    padding: 1rem 20rem;
+    /* height: 15vh; */
+    justify-content: center;
+    gap: 2rem;
+}
+
+.story-img {
+    padding-top: 1.3em;
+}
+
+.story-p {
+    padding-left: 3rem;
+    padding-right: 5rem;
+
+}
+
+.story-btn button{
+    background-color: aliceblue;
+    padding: 1em ;
+    border-color: rgb(163, 163, 229);
+}
+
+#watch-story {
+    width: 100%;
+    height: 50vh;
+
+}
+
+#watch-story .watch-story-background {
+    background: url("./images/bgk-middle.png");
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-size: cover;
+
+}
+
+/* ----------------------------------- form ------------------------------- */
+
+/* #section-form {
+   
+    border:solid 2px red;
+    display: flex;
+
+}
+
+#section-form .form-container{
+    border: solid 2px blue;
+    width: 100%;
+    display: flex;
+
+}
+
+.form-container .form {
+    background-color: yellow;
+    display: block;
+}
+
+.form-container .logo-wrapper {
+    background-color:greenyellow;
+}
+
+.logo-box {
+    border:solid 1px gray
+} */
