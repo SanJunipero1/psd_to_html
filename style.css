@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.navbar li a:hover{
+    color: #00e0d0;
+}
+.header{
+    background-image: url(./images/bgk-header.png);
+    background-repeat: no-repeat;
+    height: 670px;
+    background-size: cover;
+    
+}
+
+
+.leiste{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo_schrift{
+    display: flex;
+    
+}
+.logo{
+    height: 50px;
+}
+.logoschrift{
+    color:#00e0d0;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin: 3px 0px 0px 10px;
+    font-weight: 300;    
+
+}
+
+.navbar{
+    float: right;
+    display: flex;
+    
+
+    
+
+}
+.navbar li{
+    font-size: 13px;
+    color: white;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin:10px;
+}
+
+.navbar li a{
+text-decoration: none;
+color: white;
+}
+
+.textbox{
+    width: 100%;
+    height: 570px;
+    text-align: center;
+    margin-top: 150px;
+    
+    
+    
+}
+.textueber{
+    font-size: 32px;
+    color:white;
+    text-align: center;
+}
+.texthaupt{
+    color:white;
+    font-size:14px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+} 
+.strich{
+    border: 1px solid #00e0d0;
+    width: 3%;
+    margin:20px auto;
+}
+
+
+.button{
+    color:#00e0d0;
+    height: 40px;
+    width: 120px;
+    border:solid 1px #00e0d0;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+    margin: 30px auto 0px auto;
+
+
+}
+
+.button a{
+    color:#00e0d0;
+    text-decoration: none;
+    
+}
+.button a:hover{
+    color:white;
+    
+}
