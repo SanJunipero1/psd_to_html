@@ -118,7 +118,7 @@ body {
   align-content: center;
 }
 .story_tp{
-  width: 980px;
+  width: 1340px;
   height: 310px;
   display: flex;
   justify-content: center;
@@ -141,14 +141,15 @@ body {
   padding-top: 1.3em;
   height: 250px;
   width: 250px;
-  margin-right: 100px;
+  margin-right: 50px;
+  margin-left: 200px;
 }
 
 .story-p {
   padding-left: 3rem;
   padding-right: 5rem;
   height: 310px;
-  width: 620px;
+  width: 730px;
 }
 
 .story-btn {
