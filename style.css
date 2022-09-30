@@ -48,7 +48,7 @@ body {
 }
 .navbar li {
   font-size: 13px;
-  color: white;
+  color: rgb(188, 180, 180);
   list-style: none;
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
@@ -72,10 +72,11 @@ body {
   text-align: center;
 }
 .texthaupt {
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
+  font-weight: 300;
 }
 .strich {
   border: 1px solid #00e0d0;
@@ -108,31 +109,46 @@ body {
 /* ------ story ------*/
 
 #story {
+  height: 400px;
+  width: 100%;
+  padding: 1rem 20rem; 
+  gap: 2rem; 
   display: flex;
-  padding: 1rem 20rem;
   justify-content: center;
-  gap: 2rem;
-  margin: 50px 0;
+  align-content: center;
+}
+.story_tp{
+  width: 980px;
+  height: 310px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 #story p {
   margin-top: 15px;
-  font-family: 'Playfair Display', serif;
-  font-weight: 50;
-  font-size: 13px;
-  line-height: 1.5;
+  font-weight: 300;
+  color: #333333;
+  word-spacing: 3px;
 
 }
 .story-p h1 {
   font-family: 'Playfair Display', serif;
-  font-weight: 700;
+  font-weight: 500;
 }
+
+
 .story-img {
   padding-top: 1.3em;
+  height: 250px;
+  width: 250px;
+  margin-right: 100px;
 }
 
 .story-p {
   padding-left: 3rem;
   padding-right: 5rem;
+  height: 310px;
+  width: 620px;
 }
 
 .story-btn {
@@ -146,23 +162,27 @@ body {
   margin: 30px auto 0px auto;
   float: left;
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
 }
 
-#watch-story {
-  width: 100%;
-  height: 550px;
+.story-btn a:hover{
+  color: rgb(40, 40, 80);
 }
 
-#watch-story .watch-story-background {
+
+.watch-story-background {
   background: url('./images/bgk-middle.png');
-  height: 100%;
+  height: 555px;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #fff;
   flex-direction: column;
-  color: white;
   background-size: cover;
+  background-repeat: no-repeat;
+}
+.watch-story-icon {
+  margin-bottom: 1rem;
 }
 
 /* +++ START EXPERTISE SECTION +++ */
@@ -310,6 +330,7 @@ body {
   width: 80%;
   min-width: 15rem;
   box-shadow: 0 0 1pt 1pt #D3D3D3;
+  color: rgb(150, 150, 150);
 }
 
 .form .wrapper-btn {
@@ -380,12 +401,60 @@ body {
     margin: 1rem 0;
     align-items: center;
 }
-
-.logo-box img {
-    height: 40px;
-    width:130px;
-    margin: 0 15px;
+.mango{
+  width: 138px;
+  height: 22px;
+  margin: 0 15px;
 }
+.gucci{
+  width: 140px;
+  height: 21px;
+  margin: 20px 15px ;
+}
+.nike{
+  width: 95px;
+  height: 34px;
+  margin:  0px 15px ;
+}
+.puma{
+  width: 114px;
+  height: 56px;
+  margin: 0 15px;
+}
+.bila{
+  width: 130px;
+  height: 70px;
+  margin: 0 15px;
+}
+
+
+.levi{
+  width: 109px;
+  height: 53px;
+  margin: 0 15px;
+}
+.convers{
+  width: 113px;
+  height: 69px;
+  margin: 0 15px;
+}
+.calvin{
+  width: 151px;
+  height: 24px;
+  margin: 0 15px;
+}
+.barney{
+  width: 154px;
+  height: 41px;
+  margin: 15px 15px;
+}
+.zara{
+  width: 162px;
+  height: 22px;
+  margin: 0 15px;
+}
+
+
 
 /* +++ END EXPERTISE SECTION +++ */
 
@@ -442,9 +511,8 @@ body {
 .teambutton p {
   padding-top: 50px;
   color: white;
-  font-size: 15px;
-  font-family: 'Playfair Display', serif;
-  font-weight: 100;
+  font-weight: 200;
+  word-spacing: 3px;
 }
 
 .buttont a {
@@ -452,17 +520,22 @@ body {
   text-decoration: none;
 }
 
+.buttont a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
 .buttont {
   color: #00e0d0;
   height: 40px;
-  width: 120px;
+  width: 140px;
   border: solid 1px #00e0d0;
   text-align: center;
   padding-top: 10px;
-  font-size: 12px;
+  font-size: 15px;
   margin: 30px auto 0px auto;
   font-family: 'Roboto', sans-serif;
-  font-weight: 900;
+  font-weight: 500;
 }
 
 .membername {
@@ -487,6 +560,7 @@ body {
   width: 220px;
   height: 229px;
 }
+
 
 /* Team Section End */
 
